@@ -12,54 +12,14 @@ body {
 img body {
   position: absolute;
 }
-.andrew {
-  height: 550px;
-  width: 550px;
-  margin-left: 700px;
-  margin-top: -100px;
-  animation: andrew 10s linear infinite;
-}
-.miles {
-  height: 400px;
-  width: 400px;
-  margin-left: 400px;
-  margin-top: -10px;
-  animation: miles 2s linear infinite;
-}
 .tom {
   height: 450px;
   width: 350px;
-  margin-left: 10px;
   transform: rotate(25deg);
   transform-origin: top;
   animation: tom 6s linear infinite;
 }
 
-.tom-shadow {
-  position: absolute;
-  height: 5px;
-  width: 200px;
-  border-radius: 50%;
-  top: 550px;
-  bottom: 100px;
-  left: 150px;
-  box-shadow: 0px 0px 30px black;
-  background: rgba(0, 0, 0, 0.4);
-  animation: tom-shadow 6s linear infinite;
-}
-.andrew-shadow {
-  position: absolute;
-  background: rgba(0, 0, 0, 0.6);
-  height: 10px;
-  width: 200px;
-  border-radius: 50%;
-  top: 550px;
-  bottom: 100px;
-  right: 90px;
-  transform: scale(1);
-  box-shadow: 0px 0px 30px black;
-  animation: andrew-shadow 10s linear infinite;
-}
 @keyframes tom {
   0% {
     transform: rotate(5deg);
@@ -69,64 +29,5 @@ img body {
   }
   100% {
     transform: rotate(5deg);
-  }
-}
-@keyframes miles {
-  0% {
-    margin-top: -15px;
-  }
-  50% {
-    margin-top: -40px;
-  }
-  100% {
-    margin-top: -15px;
-  }
-}
-@keyframes tom-shadow {
-  0% {
-    transform: translateX(-50px);
-  }
-  50% {
-    transform: translateX(40px);
-  }
-  100% {
-    transform: translateX(-50px);
-  }
-}
-@keyframes andrew {
-  0% {
-    margin-top: -600px;
-  }
-  25% {
-    margin-top: -15px;
-  }
-  50% {
-    margin-top: -100px;
-  }
-  75% {
-    margin-top: -15px;
-  }
-  100% {
-    margin-top: -600px;
-  }
-}
-@keyframes andrew-shadow {
-  0% {
-    transform: scale(0);
-  }
-  25% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(0.5);
-  }
-  75% {
-    transform: scale(1);
-  }
-  85% {
-    transform: scale(0);
-  }
-  100% {
-    transform: scale(0);
   }
 }
