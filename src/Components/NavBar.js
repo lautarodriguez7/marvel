@@ -17,7 +17,7 @@ const NavBar = () => {
           <img src={LogoMarvel} className="logo-marvel" alt=""></img>
         </div>
         <div className="m-2">
-          <a className="navbar-brand nav-botton" href="#">
+          <a className="navbar-brand nav-botton" href="/#">
             SALIR
           </a>
         </div>

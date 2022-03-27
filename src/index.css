@@ -13,7 +13,10 @@ code {
 }
 
 .logo-marvel {
-  width: 8rem;
+  position: absolute;
+  width: 10rem;
+  left: 45%;
+  bottom: 15%;
 }
 
 .nav-botton {
